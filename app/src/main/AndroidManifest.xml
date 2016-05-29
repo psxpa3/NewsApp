@@ -18,15 +18,6 @@
         </activity>
         <activity android:name=".Common" ></activity>
 
-        <!--<activity android:name=".Science" ></activity>
-        <activity android:name=".National" ></activity>
-        <activity android:name=".States" ></activity>
-        <activity android:name=".International" ></activity>
-        <activity android:name=".Entertainment" ></activity>
-        <activity android:name=".Business" ></activity>
-        <activity android:name=".Sports" ></activity>
-        <activity android:name=".Editorial" ></activity> -->
-
     </application>
 
 </manifest>

@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingTop="24dp"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
     android:layout_margin="20dp">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#FF0000"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
         android:textSize="18sp"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
+        android:maxLines="2"
+        android:textStyle="bold"
         android:id="@+id/textview"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:id="@+id/more"
+        android:text="More >> "
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textSize="18dp"
+        android:textColor="#0000FF"/>
 
 </LinearLayout>

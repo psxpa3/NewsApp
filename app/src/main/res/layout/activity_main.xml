@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/appimage"
-    tools:context=".MainActivity" >
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7b8594"
     android:orientation="vertical">
 
     <Button
@@ -84,4 +78,4 @@
         android:id ="@+id/sports"/>
 
 </LinearLayout>
-</RelativeLayout>
+
